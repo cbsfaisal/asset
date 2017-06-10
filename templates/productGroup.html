@@ -1,0 +1,37 @@
+{%extends "header.html"%}
+{%block head%}
+<title>Product Group</title>
+{%endblock%}
+{%block body%}
+<!--toolbox for all page -->
+<ul class="nav navbar-nav">
+    <li class="active">
+       <button type="button" class="btn btn-default navbar-btn" title="Clear all entery and start new."><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;New</button>
+    </li>
+     <li class="active">
+       <button type="button" class="btn btn-default  navbar-btn" title="Save the new entered record."><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>&nbsp;Save</button>
+    </li>
+     <li class="active">
+       <button type="button" class="btn btn-default navbar-btn" title="Edit loarded record"><span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>&nbsp;Edit</button>
+    </li>
+     <li class="active">
+       <button type="button" class="btn btn-default  navbar-btn" title="Delete record permenetly"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span>&nbsp;Delete</button>
+    </li>
+     <li class="active">
+       <button type="button" class="btn btn-default  navbar-btn" title="Load all record to list"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>&nbsp;Load All</button>
+    </li>
+     <li class="active">
+       <button type="button" class="btn btn-default  navbar-btn" title="Print the record"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>&nbsp;Print</button>
+    </li>
+</ul>
+<!--toolbox end here-->
+
+
+<form action="/productGroup">
+
+    <input type="submit" value="submit">
+</form>
+
+
+{%endblock%}
+
